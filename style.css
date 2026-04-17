@@ -86,7 +86,9 @@ nav a:hover {
     justify-content: space-evenly;
     align-items: center;
     padding: 60px, 40px;
+    
 }
+
 
 .contact a {
     font-size: 40px;
@@ -94,7 +96,13 @@ nav a:hover {
     text-decoration: none;
     letter-spacing: normal;
     padding: 5px 5px;
+    transition: color 0.2s ease;
 }
+
+.contact a:hover {
+    color:#e8e4dc;
+}
+
 
 /* Footer */
 footer {
