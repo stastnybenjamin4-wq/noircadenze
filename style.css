@@ -96,7 +96,7 @@ nav a:hover {
     text-decoration: none;
     letter-spacing: normal;
     padding: 5px 5px;
-    transition: color 0.2s ease;
+    
 }
 
 .contact a:hover {
@@ -112,6 +112,10 @@ footer {
     width: 100%;
     padding: 24px 40px;
     border-top: 0.5px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer p {
