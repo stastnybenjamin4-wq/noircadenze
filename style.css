@@ -97,7 +97,7 @@ nav a:hover {
     text-decoration: none;
     letter-spacing: normal;
     padding: 5px 5px;
-    
+    transition: color 0.2s ease;
 }
 
 .music a:hover {
@@ -124,3 +124,8 @@ footer p {
     color: rgba(232, 228, 220, 0.25);
 }
 
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}

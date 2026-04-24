@@ -1,5 +1,5 @@
 const typewriterElement = document.querySelector("em");
-const typewriterList = ["creativity", "improvisation", "Bananas", "Brownies"];
+const typewriterList = ["creativity", "bananas","improvisation", "brownies"];
 let typewriterListTracker = 0;
 
 //Increase the typewriterListTracker by 1
