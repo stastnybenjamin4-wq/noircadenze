@@ -9,7 +9,7 @@ so that everything looks the same on every browser */
 
 /* Body-everything the user sees */
 body {
-    background-color: #000000;
+    background-color: black;
     color:#e8e4dc;
 }
 
@@ -69,11 +69,11 @@ nav a:hover {
 }
 
 /* about */
-.about {
+.Quote {
     padding: 60px 40px;
 }
 
-.about p {
+.Quote p {
     font-size: 24px;
     color: rgba(232, 228, 220, 0.6);
     line-height: 1.8;
@@ -81,16 +81,16 @@ nav a:hover {
 
 /* Contact */
 
-.contact {
+.music {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 60px, 40px;
+    padding: 60px 40px;
     
 }
 
 
-.contact a {
+.music a {
     font-size: 40px;
     color: rgba(232, 228, 220, 0.6);
     text-decoration: none;
@@ -99,7 +99,7 @@ nav a:hover {
     
 }
 
-.contact a:hover {
+.music a:hover {
     color:#e8e4dc;
 }
 

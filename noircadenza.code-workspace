@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../CODE"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "noircadenza.com"
+	}
+}
