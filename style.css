@@ -2,7 +2,7 @@
 so that everything looks the same on every browser */
 * {
     margin: 0;
-    padding: 50;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
@@ -93,7 +93,6 @@ nav a:hover {
     
 }
 
-
 .music a {
     font-size: 40px;
     color: rgba(232, 228, 220, 0.6);
@@ -127,6 +126,17 @@ footer p {
     .hero h1 {
         font-size: 40px;
     }
+    .hero {
+        padding: 40px 24px;
+    }
+    .Quote {
+        padding: 30px 24px;
+    }
+    .music {
+        padding: 30px 24px;
+    }
+
+
 }
 
 main {
