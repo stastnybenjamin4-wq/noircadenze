@@ -9,6 +9,9 @@ so that everything looks the same on every browser */
 
 /* Body-everything the user sees */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: black;
     color:#e8e4dc;
 }
@@ -107,10 +110,6 @@ nav a:hover {
 
 /* Footer */
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     padding: 24px 40px;
     border-top: 0.5px solid rgba(255, 255, 255, 0.3);
 
@@ -128,4 +127,8 @@ footer p {
     .hero h1 {
         font-size: 40px;
     }
+}
+
+main {
+    flex: 1;
 }
