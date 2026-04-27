@@ -13,11 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     color:#e8e4dc;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/Grainy1.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/TestBackground2.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: ;
 }
 
 nav {
